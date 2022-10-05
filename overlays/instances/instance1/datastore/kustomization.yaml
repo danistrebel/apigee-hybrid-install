@@ -17,11 +17,11 @@ namespace: "apigee" # kpt-set: ${APIGEE_NAMESPACE}
 resources:
 - apigee-datastore.yaml
 
-# components:
+components:
+- ./components/nodeselector/
+- ./components/workload-identity
 # - ./components/http-proxy
-# - ./components/nodeselector/
 # - ./components/imagepullsecret
-# - ./components/workload-identity
 # - ./components/openshift-scc
 # - ./components/gcs-backup
 # - ./components/gcs-restore

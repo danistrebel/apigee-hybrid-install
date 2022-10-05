@@ -16,6 +16,6 @@ resources:
 - apigee-hybrid-config.yaml
 - ../../../bases/controllers/apigee-controller
 components:
+- ./components/nodeselector/
 
 # - ./components/imagepullsecret/
-# - ./components/nodeselector/

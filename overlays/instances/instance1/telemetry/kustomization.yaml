@@ -17,7 +17,7 @@ resources:
 
 components:
 - ./components/metrics
-# - ./components/workload-identity-metrics
+- ./components/workload-identity-metrics
 # - ./components/logger
 # - ./components/workload-identity-logger
 # - ./components/http-proxy

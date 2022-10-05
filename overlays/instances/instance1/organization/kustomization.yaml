@@ -15,8 +15,8 @@
 resources:
 - apigee-organization.yaml
 
-# components:
+components:
+- ./components/nodeselector/
+- ./components/workload-identity
 # - ./components/http-proxy
-# - ./components/nodeselector/
 # - ./components/imagepullsecret
-# - ./components/workload-identity
